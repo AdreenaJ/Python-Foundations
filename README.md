@@ -36,7 +36,7 @@ Ensure you have Python 3.13.x installed.
    ```bash
    git clone [https://github.com/AdreenaJ/Python-Foundations.git](https://github.com/AdreenaJ/Python-Foundations.git)
 2. **Run the script:**
-    python salary_hike.py
+    py salary-hike.py
     OR
-    python eligibility_bot.py
+    py AI-startup-eligibility.py
  
