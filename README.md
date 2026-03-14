@@ -37,6 +37,6 @@ Ensure you have Python 3.13.x installed.
    git clone [https://github.com/AdreenaJ/Python-Foundations.git](https://github.com/AdreenaJ/Python-Foundations.git)
 2. **Run the script:**
     python salary_hike.py
-    # OR
+    OR
     python eligibility_bot.py
-3. 
+ 
