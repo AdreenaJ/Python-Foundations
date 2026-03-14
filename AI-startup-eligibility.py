@@ -5,9 +5,9 @@ def get_valid_score(skill_name):
             if 1 <= rating <= 5:
                 return rating
             else:
-                print("❌ Error: Please enter a number between 1 and 5.")
+                print("Error: Please enter a number between 1 and 5.")
         except ValueError:
-            print("❌ Invalid input: Please enter a whole number.")
+            print("Invalid input: Please enter a whole number.")
 def check_yes_no(prompt):
     """Ensures the user only enters 'yes' or 'no'."""
     while True:
