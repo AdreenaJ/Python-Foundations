@@ -8,7 +8,8 @@ def main():
     try:
         print("--------Enter the Details----------------")
         currentCTC=float(input("Enter your current CTC: "))
-        hikePercentage=float(input("Enter your hike percentage: "))
+        hikePercentage=float(input("Enter your hike percentage(eg. 10 for 10%): "))
+        #validate the inputs
         if currentCTC<=0 or hikePercentage<0:
             if currentCTC==0:
                 print("Current CTC cannot be zero")
@@ -28,4 +29,5 @@ def main():
         print("--------Thank you for using the Salary Hike Calculator----------------")
     except ValueError:
         print("Invalid input. Please enter a valid number.")
-main()
+if __name__ == "__main__":    
+    main()
