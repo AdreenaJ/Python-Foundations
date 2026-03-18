@@ -1,0 +1,17 @@
+# Python bytecode (created when you run scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments (if you ever use virtual environments)
+venv/
+.venv/
+env/
+
+# IDE files (specific to editors)
+.vscode/
+.idea/
+
+# Local system files
+.DS_Store
+Thumbs.db
