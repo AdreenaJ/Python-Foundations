@@ -23,17 +23,17 @@ This week focused on mastering the foundations required for AI data processing a
 #### 1. AI Startup Eligibility Bot
 - **Problem:** Matching candidate skillsets to the right company tier.
 - **Tech:** Python, Logic-based matching, Truthy/Falsy evaluation.
-- [View Code](./Python-Foundations/blob/main/AI-startup-eligibility.py)
+- [View Code](https://github.com/AdreenaJ/Python-Foundations/blob/main/AI-startup-eligibility.py)
 
 #### 2. Async AI Simulator (The "2026 Edge")
 - **Problem:** Synchronous AI calls are too slow for modern production apps.
 - **Tech:** `asyncio`, `await`, `asyncio.gather()`.
 - **Outcome:** A script that "calls" multiple fake AI models simultaneously to optimize latency.
-- [View Code](./Python-Foundations/blob/main/AI-Models-Asyncio.py)
+- [View Code](https://github.com/AdreenaJ/Python-Foundations/blob/main/AI-Models-Asyncio.py)
 
 #### 3. Mini AI Toolkit
 - **Focus:** Reusability & Scope. A library for text cleaning and statistical formatting.
-- [View Code](./Python-Foundations/blob/main/Mini-AI-Toolkit.py)
+- [View Code](https://github.com/AdreenaJ/Python-Foundations/blob/main/Mini-AI-Toolkit.py)
 
 ---
 
