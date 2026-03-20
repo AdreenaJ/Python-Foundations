@@ -35,12 +35,12 @@ def eligibility_check():
                 "deployment":get_valid_score("docker,aws")
                 }
         print("--------Projects and experience----------------")
-        genaiProjects=check_yes_no("Do you have experience creating generative AI projects? (yes/no): ")
-        intershipExperience=check_yes_no("Do you have experience with internships? (yes/no): ")
+        genai_Projects=check_yes_no("Do you have experience creating generative AI projects? (yes/no): ")
+        intership_Experience=check_yes_no("Do you have experience with internships? (yes/no): ")
         #Checking scores and eligibility
         score=skills["python"]*4+skills["MLFrameworks"]*3+skills["BackendJava"]*3+skills["deployment"]*2
-        if genaiProjects: score+=10
-        if intershipExperience: score+=5
+        if genai_Projects: score+=10
+        if intership_Experience: score+=5
         #Tier Determination
         print("------Assessment Results----------------")
         if score>=45:
